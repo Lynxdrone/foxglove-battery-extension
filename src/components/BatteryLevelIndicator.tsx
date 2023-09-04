@@ -6,7 +6,7 @@ interface BatteryLevelIndicatorProps {
 
 const BatteryLevelIndicator: React.FC<BatteryLevelIndicatorProps> = ({ level }) => {
   const batteryContainerStyle: React.CSSProperties = {
-    width: '100%',
+    // width: '100%',
     border: '1px solid gray',
     borderRadius: '5px',
     alignItems: 'center',
@@ -14,6 +14,7 @@ const BatteryLevelIndicator: React.FC<BatteryLevelIndicatorProps> = ({ level }) 
     backgroundColor: '#3a3a3e',
     padding: "0.1rem",
     minWidth: '3.5rem', // set the minimum width to the width of the text element plus padding
+    maxHeight: "3rem"
   };
 
   const batteryLevelStyle: React.CSSProperties = {
@@ -25,7 +26,7 @@ const BatteryLevelIndicator: React.FC<BatteryLevelIndicatorProps> = ({ level }) 
     transition: 'all 0.5s ease',
     alignItems: 'left',
     justifyContent: 'center',
-
+    // maxHeight: "100%",
   };
 
   const batteryTextStyle: React.CSSProperties = {
@@ -33,6 +34,7 @@ const BatteryLevelIndicator: React.FC<BatteryLevelIndicatorProps> = ({ level }) 
     fontWeight: 'bold',
     color: '#fff',
     textAlign: 'center',
+    verticalAlign: "center",
     padding: "0.5rem",
   };
 

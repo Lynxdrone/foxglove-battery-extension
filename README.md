@@ -1,5 +1,5 @@
 # Battery level indicator
-This extension present an indicator to visualize battery level. The color changes depending on the remaining battery.
+This foxglove extension offers an indicator to visualize battery level. The color changes depending on the remaining battery.
 
 ![Battery display 20% appearance](doc/20_percent.png)
 ![Battery display 50% appearance](doc/50_percent.png)
@@ -9,7 +9,11 @@ This extension present an indicator to visualize battery level. The color change
 The input topic type is:
 * Battery topic: `sensor_msgs/BatteryState`
   
-This topics is configurable in the panel settings.
+This topic is configurable in the panel settings.
+
+---
+
+The indicator is available as a React component for integration in other panels.
 
 
 ## Install

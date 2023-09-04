@@ -1,9 +1,9 @@
 {
   "name": "battery-display",
-  "displayName": "battery-display",
-  "description": "",
+  "displayName": "Battery Indicator",
+  "description": "Compact battery level indicator",
   "publisher": "Lynxdrone",
-  "homepage": "",
+  "homepage": "https://github.com/Lynxdrone/foxglove-battery-extension",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/extension.js",

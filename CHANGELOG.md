@@ -1,5 +1,8 @@
-# battery-display version history
+# Changelog
 
-## 0.0.0
+## [v1.0.0] - 2023-07-18
 
-- Alpha testing
+### Added
+- Display battery percentage
+- Level moves and changes color
+- Width adapts
